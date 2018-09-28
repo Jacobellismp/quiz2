@@ -97,7 +97,7 @@ public class ThriceTurn{
                     tally = tally * 3;
                     System.out.println("Your final score is " + tally);
                 } else if(die1 == die2 && die2 == die3) {
-                    tally = triValTest * 3;
+                    tally = triValTest;
                     System.out.println("Your final score is " + tally);
                 }       
             } else {
